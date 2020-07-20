@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Optimalgewicht Rechner</title>
+</head>
+<body>
+    <section id="hero">
+        <h1>Optimalgewicht Rechner</h1>
+        <h2>Körpergröße</h2>
+        <input type="number" name="" id="height">
+        <h2>Alter</h2>
+        <input type="number" name="" id="age">
+        <h2>Körperbau</h2>
+        <div>
+            <input type="radio" name="SchmalOrBreit" id="breit" checked>
+            <label for="breit">Breite</label>
+            <input type="radio" name="SchmalOrBreit" id="schmal">
+            <label for="schmal">Schmale</label>
+        </div>
+        <input type="button" value="Submit" onclick="idealgewicht()">
+        <div id="result">Dein Idealgewicht ist: ?kg</div>
+    </section>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
